@@ -1,13 +1,85 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html
+{
+  font-size: 62.5%;
+}
+.navbarbackground
+{
+  background-color: white !important;
+  box-shadow: 0 5px 5px rgba(211, 210, 210, 0.349);
+  line-height: 5rem;
+}
+.navbartext
+{
+  font-size: 2rem !important;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.active-style
+{
+  background-color: #ff002f !important;
+  color: white !important;
+  text-decoration: underline !important;
+}
+.topbody
+{
+  background-color: #1A161F;
+  height: 100vh;
+  color: white;
+}
+.topbody h2
+{
+  font-size: 5rem !important;
+}
+.topbody p
+{
+  font-size: 1.7rem !important;
+}
+.topbody .getbutton
+{
+  background-color: #27895d !important;
+  color:white !important;
+  font-size: 2rem !important;
+  font-weight: bold;
+  width: 15rem;
+  padding: 1rem 0rem !important;
+  border-radius: 1rem !important;
+}
+.courseheading
+{
+  font-size: 3rem !important;
+  font-weight: bolder;
+}
+.coursebody
+{
+  border-radius: 1rem !important;
+}
+.courseimg
+{
+  border-radius: 1rem 1rem 0rem 0rem !important;
+}
+.coursename
+{
+  font-size: 2.3rem !important;
+  font-weight: bold;
+}
+.coursepara
+{
+  font-size: 1.2rem !important;
+}
+.coursetk
+{
+  font-size: 2rem !important;
+  font-weight: bold;
+}
+.coursedetails
+{
+  font-size: 2rem !important;
+  font-weight: bold;
+  text-decoration: none;
+  color: #27895d !important;
 }
